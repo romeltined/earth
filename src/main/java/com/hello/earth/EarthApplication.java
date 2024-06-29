@@ -11,7 +11,7 @@ public class EarthApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello Docker World";
+		return "Hello Docker World in ubuntu";
 	}
 
 	public static void main(String[] args) {
